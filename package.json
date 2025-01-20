@@ -7,12 +7,14 @@
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
-    "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lexey",
   "license": "ISC",
   "dependencies": {
-    "commander": "^13.0.0"
+    "commander": "^13.0.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21"
   }
 }
